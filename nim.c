@@ -219,7 +219,7 @@ main (int argc, char **argv)
   if (misere && player == 'H')
     printf ("I loose.\n");
   else
-    printf ("You loose (Je peux perdre, mais je gagne toujours).\n");
+    printf ("You loose (« Je peux perdre, mais je gagne toujours »).\n");
 
   free (heaps);
 }

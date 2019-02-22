@@ -83,7 +83,7 @@ heaps_best_move (int *heaps, int nb_heaps)
 static struct move
 i_play (int *heaps, int nb_heaps)
 {
-  printf ("Humm, i'm thinking...\n");
+  printf ("Humm, I'm thinking...\n");
   sleep ((rand () % 3 + 1) * (heaps_non_empty (heaps, nb_heaps) - 1));
   printf ("OK, let me play.\n");
   sleep (1);
@@ -217,7 +217,7 @@ main (int argc, char **argv)
   }
 
   if (misere && player == 'H')
-    printf ("I loose.\n");
+    printf ("I loose (who are you ?!).\n");
   else
     printf ("You loose (« Je peux perdre, mais je gagne toujours »).\n");
 
